@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class project_2_4 {
 	public static  void main(String[] args) {
 		final double PI = 3.14159;
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		System.out.print(" Enter a number for radius:");
 		double radius = input.nextDouble();
